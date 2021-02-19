@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #AFEEEE;
+}
+
+.navbar-item{
+   list-style: none;
+   display: inline;
+   margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+   color: #000000;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 15px 40px;
+}
+
+.btn-login{
+    border: none;
+    background: #AFEEEE;
+    font-size: 20px;
+}
+

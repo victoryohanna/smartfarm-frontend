@@ -1,0 +1,110 @@
+
+.banner {
+  display: inline-block;
+  background: #5dc78d;
+  color: #ffffff;
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+
+
+.lines {
+  background: #af9a7d;
+  height: 5px;
+  
+  
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* End of Banner */
+
+.card-transfer {
+  width: 50%;
+  font-family: "Courier New", Courier, monospace, serif;
+  place-content: center;
+}
+
+.pagination {
+  margin: 5px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a{
+  background-color: #47ccde ;
+  border-color: #47ccde ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid #47ccde ;
+  padding: 5px 15px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #47ccde ;
+  border-color: #47ccde;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #47ccde
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+}
+
+.section-footer{
+  border: 1px solid #5dc78d;
+  background: #5dc78d;
+}
+.row-footer {
+  width: 80%;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.row-footer-img img {
+  height: 1.5rem;
+  margin-bottom: 0.5rem;
+  
+}
+
+.animate {
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+/* @keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+} */
+
+@media (max-width: 960px) {
+  .row-footer-img img {
+    height: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .banner {
+    padding: 2rem 4rem;
+  }
+
+  .banner h4 {
+    font-size: 3rem;
+  }
+}

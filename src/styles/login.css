@@ -1,0 +1,32 @@
+.loginCard {
+  /* position: fixed; */
+  /* z-index: 500; */
+  background-color: white;
+  width: 35%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  top: 1rem;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+.fb-btn {
+  width: 100%;
+  font-stretch: expanded;
+  font-size: 30px;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+@media (min-width: 600px) {
+  .Modal {
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+}
+
+@media (max-width: 900px) {
+  .fb-btn {
+    font-size: 16px;
+  }
+}
